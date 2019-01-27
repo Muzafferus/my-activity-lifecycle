@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">My Activity Lifescycle</string>
+    <string name="open_other_activity">Open other Activity</string>
+    <string name="open_for_result">Open for Result</string>
+    <string name="open_dialog">Open dialog</string>
 </resources>
