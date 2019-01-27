@@ -26,18 +26,21 @@ public class MainActivity extends AppCompatActivity {
         buttonDialog.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.e("ActivityLifecycle", "Dialog show!");
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle(R.string.dialog_header);
                 builder.setMessage(R.string.dialog_body);
                 builder.setNegativeButton(R.string.dialog_no, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.dismiss();
+                        Log.e("ActivityLifecycle", "Dialog dismiss!");
                     }
                 });
 
                 builder.setPositiveButton(R.string.dialog_yes, new DialogInterface.OnClickListener() {
                     public void onClick(DialogInterface dialog, int id) {
                         dialog.dismiss();
+                        Log.e("ActivityLifecycle", "Dialog dismiss!");
                     }
                 });
 
