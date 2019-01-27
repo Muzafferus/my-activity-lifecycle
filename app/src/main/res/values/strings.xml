@@ -3,4 +3,12 @@
     <string name="open_other_activity">Open other Activity</string>
     <string name="open_for_result">Open for Result</string>
     <string name="open_dialog">Open dialog</string>
+    <string name="hello_you">Hello You!</string>
+
+    <string name="dialog_header">Alter Dialog</string>
+    <string name="dialog_body">Is this your message?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+
+
 </resources>
